@@ -4,14 +4,15 @@ import { CustomButtonProps } from "@/types";
 
 const CustomButton = ({
   title,
-  containerStyles,
+  btnType,
+  containerStyle,
   handleClick,
 }: CustomButtonProps) => {
   return (
     <button
       disabled={false}
-      type="button"
-      className={`custom-btn ${containerStyles}`} // Use template literals to concatenate class names
+      type={btnType || "button"}
+      className={`custom-btn ${containerStyle}`} // Use template literals to concatenate class names
       onClick={handleClick}
     >
       <span className="flex-1">{title}</span>
