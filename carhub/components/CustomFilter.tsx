@@ -1,7 +1,7 @@
 import React from "react";
 
 const CustomFilter = () => {
-  return <div>Filter</div>;
+  return <div>fuel | year</div>;
 };
 
 export default CustomFilter;
