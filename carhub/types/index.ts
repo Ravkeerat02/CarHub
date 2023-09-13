@@ -50,3 +50,8 @@ export interface CustomFilterProps {
   // nested prop - prop within prop
   options: OptionProps[];
 }
+
+export interface ShowMoreProps {
+  pageNumber: number;
+  isNext: boolean;
+}
