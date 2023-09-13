@@ -1,12 +1,11 @@
 "use client";
 
-import React from "react";
 import { Fragment, useState } from "react";
 import Image from "next/image";
-import { Listbox, Transition } from "@headlessui/react";
-import { CustomFilterProps } from "@/types";
 import { useRouter } from "next/navigation";
+import { Listbox, Transition } from "@headlessui/react";
 import { updateSearchParams } from "@/utils";
+import { CustomFilterProps } from "@/types";
 
 export default function CustomFilter({ title, options }: CustomFilterProps) {
   const router = useRouter();
@@ -29,19 +28,20 @@ export default function CustomFilter({ title, options }: CustomFilterProps) {
         }}
       >
         <div className="relative w-fit z-10">
+          {/* Button for the listbox */}
           <Listbox.Button className="custom-filter__btn">
             <span className="block truncate">{selected.title}</span>
             <Image
               src="/chevron-up-down.svg"
               width={20}
               height={20}
-              className="ml-4 object-contain "
-              alt="chevron up down"
+              className="ml-4 object-contain"
+              alt="chevron_up-down"
             />
           </Listbox.Button>
-          {/* slowly open  */}
+          {/* Transition for displaying the options */}
           <Transition
-            as={Fragment}
+            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
             leave="transition ease-in duration-100"
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
