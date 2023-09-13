@@ -67,3 +67,8 @@ npm run dev
 ```
 
 Open your browser and access Carhub at http://localhost:3000.
+
+
+### Screenshots 
+![Landing Page](https://github.com/Ravkeerat02/CarHub/blob/main/ss/Screenshot%202023-09-13%20at%203.57.24%20AM.png)
+![Catalogue/ Detail](https://github.com/Ravkeerat02/CarHub/blob/main/ss/MergedImages.png)
