@@ -10,12 +10,12 @@ const Hero = () => {
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
         <h1 className="hero_title text-4xl font-bold text-center mt-10">
-          "Discover, Drive, Delight: Your Journey, Your Way!"
+          Discover, Drive, Delight: Your Journey, Your Way!
         </h1>
         <p className="hero_subtitle text-lg text-center mt-4">
-          "Explore a World of Cars and Elevate Your Journey"
+          Explore a World of Cars and Elevate Your Journey
         </p>
-        <a href="#catalogue-section">
+        <a href="#catalogue-section" title="Explore Cars">
           <CustomButton
             title="Explore Cars"
             containerStyle="bg-primary-blue text-white rounded-full mt-10"
