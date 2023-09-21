@@ -9,18 +9,20 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
-        <h1 className="hero_title">
-          Find , book or rent a car -- quickly and easuly
+        <h1 className="hero_title text-4xl font-bold text-center mt-10">
+          "Discover, Drive, Delight: Your Journey, Your Way!"
         </h1>
-        <p className="hero_subtitle">
-          Your car rental experience with our effortless booking process
+        <p className="hero_subtitle text-lg text-center mt-4">
+          "Explore a World of Cars and Elevate Your Journey"
         </p>
-        <CustomButton
-          title="Explore Cars"
-          containerStyle="bg-primary-blue text-white rounded-full mt-10"
-          handleClick={handleScroll}
-          btnType={"button"}
-        />
+        <a href="#catalogue-section">
+          <CustomButton
+            title="Explore Cars"
+            containerStyle="bg-primary-blue text-white rounded-full mt-10"
+            handleClick={handleScroll}
+            btnType={"button"}
+          />
+        </a>
       </div>
       <div className="hero__image-container">
         <div className="hero__image">

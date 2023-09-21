@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 // what the page will look like
 export const metadata = {
-  title: "Create Next App",
+  title: "Car Hub",
   description: "Discover the best cars in the worls",
 };
 
@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relatvie">
+      <body className="relative">
         <Navbar />
         {children}
         <Footer />

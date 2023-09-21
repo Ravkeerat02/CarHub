@@ -22,7 +22,7 @@ export const manufacturers = [
   "Jaguar",
   "Jeep",
   "Kia",
-  "Koenigsegg",
+  "Koenigsegg Automotive AB",
   "Lamborghini",
   "Land Rover",
   "Lexus",
